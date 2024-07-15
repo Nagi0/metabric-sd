@@ -1,0 +1,130 @@
+### Top-k subgroups:
+{} -> 0.0(801p,1103n)(conf=0.4206932773109244)
+{Relapse Event = 0.0} -> 0.1264575683214462(717p,415n)(conf=0.6333922261484098)
+{Relapse Event = 0.0,Age at Diagnosis [years] = 40 - 60,Menopausal State = Pre,Radiotherapy = YES} -> 0.03197602570439941(108p,4n)(conf=0.9642857142857143)
+{SYF2 = high,TP63 = high} -> 0.030744374955864694(133p,44n)(conf=0.751412429378531)
+{Relapse Event = 0.0,Age at Diagnosis [years] = 40 - 60,CCDC77 = low} -> 0.029237706111856505(99p,4n)(conf=0.9611650485436893)
+{Relapse Event = 0.0,PTPN2 = high,ZMYND8 = low} -> 0.027553392680601654(100p,13n)(conf=0.8849557522123894)
+{Age at Diagnosis [years] = 40 - 60,UEVLD = high} -> 0.026734682843725727(122p,47n)(conf=0.7218934911242604)
+{Relapse Event = 0.0,Breast Surgery = BREAST CONSERVING,YTHDC2 = low} -> 0.025452552344467198(96p,17n)(conf=0.8495575221238938)
+{Age at Diagnosis [years] = 40 - 60,FRMD3 = high} -> 0.02336605598121601(124p,65n)(conf=0.656084656084656)
+{Relapse Event = 0.0,DSCAM = low,VPS13B = low} -> 0.022826501924299133(91p,22n)(conf=0.8053097345132744)
+{RUSC1 = low,C9orf46 = high} -> 0.022004206094202384(105p,45n)(conf=0.7)
+### Data set:brca_metabric_ssdp(|I|=54195; |A|=18054; |D+|=801; |D-|=1103)
+Average WRAcc: 0.03663530669620789
+Time(s): 304.229
+Average size: 2.5
+Coverage of all Pk DPs in relation to D+: 95.50561797752809%
+Description Redundancy Item Dominador (|itemDominador|/k): 0.6
+Number of individuals generated: 2493295
+
+### Top-k and caches
+{} -> 0.0(801p,1103n)(conf=0.4206932773109244)
+{Relapse Event=0.0}->n (n=717, others=415)
+        [Qualidade=0,1265|Size=1]
+   cache(0):{Relapse Event=0.0,Cancer Type=Breast Cancer}->n (n=716, others=415)
+        [Qualidade=0,1262|Size=2] ||Similarity:0,9991||
+   cache(1):{Relapse Event=0.0,Lymph Nodes Examined Positive=< 3}->n (n=618, others=357)
+        [Qualidade=0,1092|Size=2] ||Similarity:0,8613||
+   cache(2):{Relapse Event=0.0,HER2 Status=Negative}->n (n=635, others=386)
+        [Qualidade=0,1079|Size=2] ||Similarity:0,9019||
+   cache(3):{Relapse Event=0.0,Age at Diagnosis [years]=40 - 60}->n (n=375, others=56)
+        [Qualidade=0,1017|Size=2] ||Similarity:0,3807||
+   cache(4):{Relapse Event=0.0,Age at Diagnosis [years]=40 - 60,Cancer Type=Breast Cancer}->n (n=374, others=56)
+        [Qualidade=0,1014|Size=3] ||Similarity:0,3799||
+
+{Relapse Event=0.0,Age at Diagnosis [years]=40 - 60,Menopausal State=Pre,Radiotherapy=YES}->n (n=108, others=4)
+        [Qualidade=0,032|Size=4]
+   cache(0):{Relapse Event=0.0,Menopausal State=Pre,AFG3L1=medium}->n (n=108, others=5)
+        [Qualidade=0,0318|Size=3] ||Similarity:0,372||
+   cache(1):{Relapse Event=0.0,Age at Diagnosis [years]=40 - 60,LILRA4=high}->n (n=107, others=5)
+        [Qualidade=0,0315|Size=3] ||Similarity:0,1487||
+   cache(2):{Relapse Event=0.0,Menopausal State=Pre,TIGD5=medium}->n (n=107, others=6)
+        [Qualidade=0,0312|Size=3] ||Similarity:0,3473||
+   cache(3):{Relapse Event=0.0,Menopausal State=Pre,Radiotherapy=YES,Breast Surgery=BREAST CONSERVING}->n (n=104, others=3)
+        [Qualidade=0,031|Size=4] ||Similarity:0,5985||
+   cache(4):{Relapse Event=0.0,Menopausal State=Pre,ACSM2A=medium}->n (n=105, others=6)
+        [Qualidade=0,0306|Size=3] ||Similarity:0,3434||
+
+{SYF2=high,TP63=high}->n (n=133, others=44)
+        [Qualidade=0,0307|Size=2]
+   cache(0):{Age at Diagnosis [years]=40 - 60,Radiotherapy=YES,SYF2=high}->n (n=119, others=26)
+        [Qualidade=0,0305|Size=3] ||Similarity:0,288||
+   cache(1):{Age at Diagnosis [years]=40 - 60,PPFIA1=low}->n (n=131, others=48)
+        [Qualidade=0,0293|Size=2] ||Similarity:0,1749||
+   cache(2):{Age at Diagnosis [years]=40 - 60,CCNDBP1=high}->n (n=130, others=47)
+        [Qualidade=0,0292|Size=2] ||Similarity:0,2041||
+   cache(3):{Age at Diagnosis [years]=40 - 60,KIF4A=low,HJURP=low}->n (n=118, others=31)
+        [Qualidade=0,0291|Size=3] ||Similarity:0,2395||
+   cache(4):{Age at Diagnosis [years]=40 - 60,Radiotherapy=YES,C8orf4=high}->n (n=111, others=22)
+        [Qualidade=0,0289|Size=3] ||Similarity:0,1232||
+
+{Relapse Event=0.0,Age at Diagnosis [years]=40 - 60,CCDC77=low}->n (n=99, others=4)
+        [Qualidade=0,0292|Size=3]
+   cache(0):{Relapse Event=0.0,Age at Diagnosis [years]=40 - 60,UEVLD=high}->n (n=103, others=10)
+        [Qualidade=0,0291|Size=3] ||Similarity:0,2067||
+   cache(1):{Age at Diagnosis [years]=40 - 60,CCDC126=high}->n (n=118, others=43)
+        [Qualidade=0,0264|Size=2] ||Similarity:0,1892||
+   cache(2):{Age at Diagnosis [years]=40 - 60,KIZ=medium,FAM173B=medium}->n (n=131, others=67)
+        [Qualidade=0,0251|Size=3] ||Similarity:0,1316||
+   cache(3):{Relapse Event=0.0,CHST14=high,GPR124=high}->n (n=91, others=18)
+        [Qualidade=0,0237|Size=3] ||Similarity:0,1042||
+   cache(4):{Age at Diagnosis [years]=40 - 60,KIF5C=high}->n (n=106, others=43)
+        [Qualidade=0,0228|Size=2] ||Similarity:0,1403||
+
+{Relapse Event=0.0,PTPN2=high,ZMYND8=low}->n (n=100, others=13)
+        [Qualidade=0,0276|Size=3]
+   cache(0):{Relapse Event=0.0,PPP1R3E=low,PTPN2=high}->n (n=97, others=13)
+        [Qualidade=0,0266|Size=3] ||Similarity:0,3598||
+   cache(1):{Relapse Event=0.0,Radiotherapy=YES,RGS18=high,C11orf10=medium}->n (n=97, others=16)
+        [Qualidade=0,026|Size=4] ||Similarity:0,1188||
+   cache(2):{Relapse Event=0.0,YTHDC2=low,PTPN2=high}->n (n=95, others=15)
+        [Qualidade=0,0256|Size=3] ||Similarity:0,3515||
+   cache(3):{Relapse Event=0.0,PTPN2=high,FRMD3=high}->n (n=96, others=17)
+        [Qualidade=0,0255|Size=3] ||Similarity:0,4487||
+   cache(4):{Relapse Event=0.0,PTPN2=high,TBC1D16=low}->n (n=89, others=13)
+        [Qualidade=0,0242|Size=3] ||Similarity:0,2952||
+
+{Age at Diagnosis [years]=40 - 60,UEVLD=high}->n (n=122, others=47)
+        [Qualidade=0,0267|Size=2]
+   cache(0):{Relapse Event=0.0,Age at Diagnosis [years]=40 - 60,PRDM6=low}->n (n=89, others=11)
+        [Qualidade=0,0246|Size=3] ||Similarity:0,135||
+   cache(1):{Relapse Event=0.0,RPL18A=high,HMGN1=high}->n (n=93, others=18)
+        [Qualidade=0,0243|Size=3] ||Similarity:0,1155||
+   cache(2):{Age at Diagnosis [years]=40 - 60,Breast Surgery=BREAST CONSERVING,GPR34=medium}->n (n=122, others=61)
+        [Qualidade=0,0236|Size=3] ||Similarity:0,1246||
+   cache(3):{Breast Surgery=BREAST CONSERVING,TNFAIP6=high}->n (n=123, others=63)
+        [Qualidade=0,0235|Size=2] ||Similarity:0,1129||
+   cache(4):{Age at Diagnosis [years]=40 - 60,Breast Surgery=BREAST CONSERVING,ENO3=medium}->n (n=114, others=53)
+        [Qualidade=0,023|Size=3] ||Similarity:0,1016||
+
+{Relapse Event=0.0,Breast Surgery=BREAST CONSERVING,YTHDC2=low}->n (n=96, others=17)
+        [Qualidade=0,0255|Size=3]
+   cache(0):{Relapse Event=0.0,PTPN2=high,ASB12=high}->n (n=87, others=19)
+        [Qualidade=0,0223|Size=3] ||Similarity:0,1231||
+   cache(1):{Relapse Event=0.0,PTPN2=high,CHD1L=high}->n (n=83, others=20)
+        [Qualidade=0,0208|Size=3] ||Similarity:0,125||
+   cache(2): ||Similarity:0,0593||
+   cache(3): ||Similarity:0,0593||
+   cache(4): ||Similarity:0,0593||
+
+{Age at Diagnosis [years]=40 - 60,FRMD3=high}->n (n=124, others=65)
+        [Qualidade=0,0234|Size=2]
+   cache(0):{Menopausal State=Pre,BTN1A1=medium}->n (n=130, others=79)
+        [Qualidade=0,0221|Size=2] ||Similarity:0,1117||
+   cache(1): ||Similarity:0,0993||
+   cache(2): ||Similarity:0,0993||
+   cache(3): ||Similarity:0,0993||
+   cache(4): ||Similarity:0,0993||
+
+{Relapse Event=0.0,DSCAM=low,VPS13B=low}->n (n=91, others=22)
+        [Qualidade=0,0228|Size=3]
+   cache(0):{Relapse Event=0.0,TRIM16=low,RALGAPB=low}->n (n=81, others=21)
+        [Qualidade=0,02|Size=3] ||Similarity:0,1316||
+   cache(1): ||Similarity:0,0593||
+   cache(2): ||Similarity:0,0593||
+   cache(3): ||Similarity:0,0593||
+   cache(4): ||Similarity:0,0593||
+
+{RUSC1=low,C9orf46=high}->n (n=105, others=45)
+        [Qualidade=0,022|Size=2]
