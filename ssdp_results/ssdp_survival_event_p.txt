@@ -1,0 +1,111 @@
+### Data set:brca_metabric_ssdp(|I|=54195; |A|=18054; |D|=1904; |D+|=1103; |D-|=801)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.0(1103p,801n)(conf=0.5793067226890757)
+{Relapse Event = 1.0} -> 0.1262366159699174(687p,84n)(conf=0.8910505836575876)
+{Age at Diagnosis [years] = 60 - 80,RAN = low} -> 0.030665483105006698(198p,43n)(conf=0.8215767634854771)
+{Age at Diagnosis [years] = â?¥ 80} -> 0.021483133694654332(111p,10n)(conf=0.9173553719008265)
+{Tumor Size [mm] = 30 - 40,PAK4 = medium} -> 0.018766605907068704(129p,32n)(conf=0.8012422360248447)
+{LARP1 = high,EEF1B2 = low} -> 0.018741228108890614(122p,27n)(conf=0.8187919463087249)
+{CRYAB = low,LAMA3 = medium} -> 0.017346828437257253(157p,57n)(conf=0.7336448598130841)
+{CUEDC1 = high,BUD31 = low} -> 0.017082292475813846(120p,31n)(conf=0.7947019867549668)
+{NOVA1 = high,ARAP3 = medium} -> 0.016651421598050973(169p,68n)(conf=0.7130801687763713)
+{GOPC = low,RHPN1 = high} -> 0.01661500997457806(111p,26n)(conf=0.8102189781021898)
+{Relapse Event = 1.0,ESD = low,C2orf74 = low} -> 0.01648812098368759(76p,1n)(conf=0.987012987012987)
+### Data set:brca_metabric_ssdp(|I|=54195; |A|=18054; |D+|=1103; |D-|=801)
+Average WRAcc: 0.030007674025492544
+Time(s): 310.027
+Average size: 1.9
+Coverage of all Pk DPs in relation to D+: 90.48050770625566%
+Description Redundancy Item Dominador (|itemDominador|/k): 0.2
+Number of individuals generated: 2438866
+
+### Top-k and caches
+{} -> 0.0(1103p,801n)(conf=0.5793067226890757)
+{Relapse Event=1.0}->p (p=687, others=84)
+        [Qualidade=0,1262|Size=1]
+   cache(0):{Relapse Event=1.0,Cancer Type Detailed=Breast Invasive Ductal Carcinoma}->p (p=550, others=64)
+        [Qualidade=0,1021|Size=2] ||Similarity:0,7964||
+   cache(1):{Relapse Event=1.0,Menopausal State=Post}->p (p=532, others=52)
+        [Qualidade=0,1017|Size=2] ||Similarity:0,7575||
+   cache(2):{Relapse Event=1.0,Breast Surgery=MASTECTOMY}->p (p=464, others=38)
+        [Qualidade=0,091|Size=2] ||Similarity:0,6511||
+   cache(3):{Relapse Event=1.0,Estrogen receptors (IHC)=Positve}->p (p=496, others=75)
+        [Qualidade=0,0868|Size=2] ||Similarity:0,7406||
+   cache(4):{Relapse Event=1.0,Estrogen Receptors Status=Positive}->p (p=495, others=78)
+        [Qualidade=0,0856|Size=2] ||Similarity:0,7432||
+
+{Age at Diagnosis [years]=60 - 80,RAN=low}->p (p=198, others=43)
+        [Qualidade=0,0307|Size=2]
+   cache(0):{Age at Diagnosis [years]=60 - 80,Cohort ID=3,EEF1B2=low}->p (p=167, others=25)
+        [Qualidade=0,0293|Size=3] ||Similarity:0,3574||
+   cache(1):{NRBF2=low,ID3=low}->p (p=180, others=45)
+        [Qualidade=0,0261|Size=2] ||Similarity:0,2296||
+   cache(2):{Age at Diagnosis [years]=60 - 80,WDR1=low}->p (p=195, others=58)
+        [Qualidade=0,0254|Size=2] ||Similarity:0,4114||
+   cache(3):{FOXP1-IT1=high,WWOX=high}->p (p=153, others=28)
+        [Qualidade=0,0253|Size=2] ||Similarity:0,2092||
+   cache(4):{Age at Diagnosis [years]=60 - 80,TMPO=low}->p (p=193, others=58)
+        [Qualidade=0,025|Size=2] ||Similarity:0,4731||
+
+{Age at Diagnosis [years]=â?¥ 80}->p (p=111, others=10)
+        [Qualidade=0,0215|Size=1]
+{Tumor Size [mm]=30 - 40,PAK4=medium}->p (p=129, others=32)
+        [Qualidade=0,0188|Size=2]
+   cache(0):{Tumor Size [mm]=30 - 40,LINC00643=medium}->p (p=126, others=35)
+        [Qualidade=0,0172|Size=2] ||Similarity:0,3702||
+   cache(1):{Tumor Size [mm]=30 - 40,HS3ST5=medium}->p (p=121, others=32)
+        [Qualidade=0,017|Size=2] ||Similarity:0,4081||
+   cache(2):{Tumor Size [mm]=30 - 40,LILRB4=medium}->p (p=128, others=38)
+        [Qualidade=0,0167|Size=2] ||Similarity:0,3856||
+   cache(3): ||Similarity:0,0846||
+   cache(4): ||Similarity:0,0846||
+
+{LARP1=high,EEF1B2=low}->p (p=122, others=27)
+        [Qualidade=0,0187|Size=2]
+   cache(0):{PDE1A=low,RHPN1=high}->p (p=132, others=35)
+        [Qualidade=0,0185|Size=2] ||Similarity:0,1408||
+   cache(1):{LARP1=high,RGMA=low}->p (p=124, others=30)
+        [Qualidade=0,0183|Size=2] ||Similarity:0,2678||
+   cache(2):{Age at Diagnosis [years]=60 - 80,BSN=high,LAMA3=medium}->p (p=118, others=26)
+        [Qualidade=0,0182|Size=3] ||Similarity:0,1141||
+   cache(3):{CDK6=low,LARP1=high}->p (p=116, others=27)
+        [Qualidade=0,0174|Size=2] ||Similarity:0,2751||
+   cache(4):{POLR3A=high,PDGFRA=low}->p (p=136, others=42)
+        [Qualidade=0,0173|Size=2] ||Similarity:0,101||
+
+{CRYAB=low,LAMA3=medium}->p (p=157, others=57)
+        [Qualidade=0,0173|Size=2]
+   cache(0):{TMEM41B=high,NOVA1=high}->p (p=148, others=51)
+        [Qualidade=0,0172|Size=2] ||Similarity:0,1072||
+   cache(1):{CAPN11=medium,NOVA1=high}->p (p=182, others=76)
+        [Qualidade=0,0171|Size=2] ||Similarity:0,1238||
+   cache(2):{IL18R1=low,LAMA3=medium}->p (p=165, others=65)
+        [Qualidade=0,0167|Size=2] ||Similarity:0,3097||
+   cache(3):{CCDC33=high,EGR2=low}->p (p=116, others=30)
+        [Qualidade=0,0165|Size=2] ||Similarity:0,1215||
+   cache(4):{LDHB=low,VSNL1=low}->p (p=138, others=46)
+        [Qualidade=0,0165|Size=2] ||Similarity:0,1437||
+
+{CUEDC1=high,BUD31=low}->p (p=120, others=31)
+        [Qualidade=0,0171|Size=2]
+   cache(0):{CCDC33=high,ACOT9=low}->p (p=116, others=29)
+        [Qualidade=0,0168|Size=2] ||Similarity:0,1086||
+   cache(1): ||Similarity:0,0793||
+   cache(2): ||Similarity:0,0793||
+   cache(3): ||Similarity:0,0793||
+   cache(4): ||Similarity:0,0793||
+
+{NOVA1=high,ARAP3=medium}->p (p=169, others=68)
+        [Qualidade=0,0167|Size=2]
+{GOPC=low,RHPN1=high}->p (p=111, others=26)
+        [Qualidade=0,0166|Size=2]
+{Relapse Event=1.0,ESD=low,C2orf74=low}->p (p=76, others=1)
+        [Qualidade=0,0165|Size=3]
+   cache(0):{C6orf89=high,C2orf74=low}->p (p=120, others=36)
+        [Qualidade=0,0156|Size=2] ||Similarity:0,1535||
+   cache(1): ||Similarity:0,0404||
+   cache(2): ||Similarity:0,0404||
+   cache(3): ||Similarity:0,0404||
+   cache(4): ||Similarity:0,0404||
