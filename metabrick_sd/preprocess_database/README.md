@@ -1,0 +1,8 @@
+# metabrick-sd
+To preprocess the metabrick database to run the SSDP+ and ESMAN SD run the `process_metabrick.py` code.
+There are a few parameters that can be set to change the target variable.
+The `label` parameter in the Metabrick dataclass has to be a list. In case you want to use a single target variable to run SSDP+ set it as `["Name of Variable"]`. The ESMAN SD algorithm expects to have two target varibles, the survival event and survival time, which are the `Overall Survival Time [months]` and `Survival Event` columns; in that case, set the label parameter as `["Survival Event", "Overall Survival Time [months]"]`
+
+The parameters `data_file` and `gene_set_file` are, respectively, the path of the csv file of the metabrick database and the path of the csv file with the identified gene in the metabrick dataset. Both of these files can be obtained running the `metabric_db_preparation.ows` file.
+
+Orange has a bioinformatics tool that identifies genes in a relational database, but not columns of named genes in the metabrick database were identified, in that case `process_metabrick.py` will remove the unidentified gene columns. Than it will discretize the gene columns in 3 intervals ["low", "medium", "high"], using the the 25% and 75% quantiles of each individual column (the genes were already normalized). Finally it will set target atributes as the last column of the dataset (required to use SSDP+)
