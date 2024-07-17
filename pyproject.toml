@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "breast-cancer-wisconsin"
+name = "metabrick_sd"
 version = "0.1.0"
 description = "Subgroup discovery on a brest cancer dataset"
 authors = ["Nagi0 <brunolefonseca13@gmail.com>"]
@@ -9,7 +9,7 @@ readme = "README.md"
 python = "3.10.9"
 orange3 = "*"
 ucimlrepo = "*"
-pysubgroup = "*"
+tqdm = "*"
 
 [build-system]
 requires = ["poetry-core"]

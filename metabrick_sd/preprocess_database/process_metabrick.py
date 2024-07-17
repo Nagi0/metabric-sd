@@ -91,8 +91,8 @@ class Metabric:
 
 if __name__ == "__main__":
     metabric = Metabric(
-        "breast_cancer_wisconsin/brca_metabric_preprocessed.csv",
-        "breast_cancer_wisconsin/Gene Matcher Results.csv",
+        "metabrick_sd/brca_metabric_preprocessed.csv",
+        "metabrick_sd/Gene Matcher Results.csv",
         ",",
         ["Survival Event"],
     )
