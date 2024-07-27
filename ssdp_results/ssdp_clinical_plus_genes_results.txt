@@ -1,0 +1,126 @@
+### Data set:brca_metabric_clinical(|I|=8069; |A|=3147; |D|=1904; |D+|=1103; |D-|=801)
+SSDP+ running...
+
+### Top-k subgroups:
+{} -> 0.0(1103p,801n)(conf=0.5793067226890757)
+{DCAF12L2 = < 1.8932,GSPT1 = ≥ -1.5056,KLRC3 = < 1.2526,PLEKHH3 = ≥ -1.784450,NMNAT1 = < 1.4283,RGS10 = < 1.8562,KIR2DL5A = < 3.0116,MYL7 = < 0.79325,SPINK1 = < 5.1131,ADAMTS8 = < 
+1.99665,SNX10 = < 2.45705,ABCF1 = ≥ -2.180350,ZNF679 = < 2.17725,FBLN1 = < 1.27825,KCNN3 = ≥ -1.6905,STARD7 = < 2.07885,SLC2A8 = ≥ -2.3017,KBTBD3 = < 1.63885,PCDH18 = < 1.03665,SH2B3 = < 1.43235,GPR4 = ≥ -1.6321,C4orf36 = < 2.5928} -> 0.10081661341006987(689p,169n)(conf=0.803030303030303)
+{Nottingham Prognostic Index = ≥ 5.1} -> 0.023066211778829167(176p,52n)(conf=0.7719298245614035)
+{Age at Diagnosis [years] = ≥ 80,KBTBD3 = < 1.63885} -> 0.021566439075630252(110p,9n)(conf=0.9243697478991597)
+{MYL7 = < 0.79325,CORO1B = ≥ -0.360250,MRE11A = < -1.2973} -> 0.018498483952404485(103p,14n)(conf=0.8803418803418803)
+{KIT = < -0.908150,OVOL1 = ≥ 0.75365,STARD7 = < 2.07885,C4orf36 = < 2.5928} -> 0.018110920838923805(104p,16n)(conf=0.8666666666666667)
+{GSPT1 = ≥ -1.5056,ZNF679 = < 2.17725,HIST2H4B = < -1.252450} -> 0.016948231498481743(107p,22n)(conf=0.8294573643410853)
+{DCAF12L2 = < 1.8932,ABCF1 = ≥ -2.180350,FBLN1 = < 1.27825,CORO1B = ≥ -0.360250,STARD7 = < 2.07885,KIAA1161 = ≥ 1.2925} -> 0.016781620736529904(109p,24n)(conf=0.8195488721804511){PPP4R4 = < -0.546450,CHPT1 = < 0.4362,ADAMTS1 = < -0.6074} -> 0.01669831535555398(110p,25n)(conf=0.8148148148148148)
+{TNFRSF13B = < -0.575950,KIAA0284 = < 0.53255,C4orf52 = < -0.2383} -> 0.016557082391780237(119p,32n)(conf=0.7880794701986755)
+{P2RX2 = ≥ 1.2127,NLRP3 = < 1.07285} -> 0.016223860867876562(123p,36n)(conf=0.7735849056603774)
+### Data set:brca_metabric_clinical(|I|=8069; |A|=3147; |D+|=1103; |D-|=801)
+Average WRAcc: 0.026526777990607996
+Time(s): 407.152
+Average size: 4.9
+Coverage of all Pk DPs in relation to D+: 82.13961922030825%
+Description Redundancy Item Dominador (|itemDominador|/k): 0.3
+Number of individuals generated: 1309791
+
+### Top-k and caches
+{} -> 0.0(1103p,801n)(conf=0.5793067226890757)
+{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,RGS10=< 1.8562,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=689, others=169)
+        [Qualidade=0,1008|Size=22]
+   cache(0):{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,BMPR2=< 2.10135,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=694, others=173)
+        [Qualidade=0,1007|Size=22] ||Similarity:0,985||
+   cache(1):{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=695, others=174)
+        [Qualidade=0,1006|Size=21] ||Similarity:0,9873||
+   cache(2):{DCAF12L2=< 1.8932,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,BMPR2=< 2.10135,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=720, others=193)
+        [Qualidade=0,1004|Size=20] ||Similarity:0,9355||
+   cache(3):{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=706, others=183)
+        [Qualidade=0,1003|Size=20] ||Similarity:0,9651||
+   cache(4):{GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=707, others=184)
+        [Qualidade=0,1002|Size=20] ||Similarity:0,963||
+
+{Nottingham Prognostic Index=≥ 5.1}->p (p=176, others=52)
+        [Qualidade=0,0231|Size=1]
+   cache(0):{Nottingham Prognostic Index=≥ 5.1,PLEKHH3=≥ -1.784450,CORO1B=≥ -0.360250}->p (p=124, others=25)
+        [Qualidade=0,0198|Size=3] ||Similarity:0,6535||
+   cache(1):{Nottingham Prognostic Index=≥ 5.1,CORO1B=≥ -0.360250,C4orf36=< 2.5928}->p (p=127, others=29)
+        [Qualidade=0,0192|Size=3] ||Similarity:0,6842||
+   cache(2):{Nottingham Prognostic Index=≥ 5.1,SPINK1=< 5.1131,CORO1B=≥ -0.360250,STARD7=< 2.07885}->p (p=128, others=30)
+        [Qualidade=0,0192|Size=4] ||Similarity:0,693||
+   cache(3):{Nottingham Prognostic Index=≥ 5.1,GSPT1=≥ -1.5056,ADAMTS8=< 1.99665,CORO1B=≥ -0.360250}->p (p=123, others=27)
+        [Qualidade=0,019|Size=4] ||Similarity:0,6579||
+   cache(4):{Nottingham Prognostic Index=≥ 5.1,CORO1B=≥ -0.360250,KBTBD3=< 1.63885}->p (p=125, others=29)
+        [Qualidade=0,0188|Size=3] ||Similarity:0,6754||
+
+{Age at Diagnosis [years]=≥ 80,KBTBD3=< 1.63885}->p (p=110, others=9)
+        [Qualidade=0,0216|Size=2]
+   cache(0):{Age at Diagnosis [years]=≥ 80,STARD7=< 2.07885,KBTBD3=< 1.63885}->p (p=110, others=9)
+        [Qualidade=0,0216|Size=3] ||Similarity:1||
+   cache(1):{Age at Diagnosis [years]=≥ 80}->p (p=111, others=10)
+        [Qualidade=0,0215|Size=1] ||Similarity:0,9835||
+   cache(2):{Age at Diagnosis [years]=≥ 80,KIR2DL5A=< 3.0116,ABCF1=≥ -2.180350}->p (p=111, others=10)
+        [Qualidade=0,0215|Size=3] ||Similarity:0,9835||
+   cache(3):{Age at Diagnosis [years]=≥ 80,KIR2DL5A=< 3.0116,STARD7=< 2.07885}->p (p=111, others=10)
+        [Qualidade=0,0215|Size=3] ||Similarity:0,9835||
+   cache(4):{Age at Diagnosis [years]=≥ 80,STARD7=< 2.07885}->p (p=111, others=10)
+        [Qualidade=0,0215|Size=2] ||Similarity:0,9835||
+
+{MYL7=< 0.79325,CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=103, others=14)
+        [Qualidade=0,0185|Size=3]
+   cache(0):{PLEKHH3=≥ -1.784450,CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=107, others=17)
+        [Qualidade=0,0185|Size=3] ||Similarity:0,8976||
+   cache(1):{RGS10=< 1.8562,TNFAIP6=< 1.29205,CORO1B=≥ -0.360250,STARD7=< 2.07885,C4orf36=< 2.5928,MRE11A=< -1.2973}->p (p=104, others=15)
+        [Qualidade=0,0184|Size=6] ||Similarity:0,873||
+   cache(2):{RGS10=< 1.8562,CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=108, others=18)
+        [Qualidade=0,0184|Size=3] ||Similarity:0,9134||
+   cache(3):{MYL7=< 0.79325,EIF3B=≥ -0.932250,RRAGA=< 0.1291,MRE11A=< -1.2973}->p (p=105, others=16)
+        [Qualidade=0,0183|Size=4] ||Similarity:0,6528||
+   cache(4):{CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=108, others=19)
+        [Qualidade=0,0181|Size=2] ||Similarity:0,9213||
+
+{KIT=< -0.908150,OVOL1=≥ 0.75365,STARD7=< 2.07885,C4orf36=< 2.5928}->p (p=104, others=16)
+        [Qualidade=0,0181|Size=4]
+   cache(0):{KIT=< -0.908150,MEP1B=< 0.16365,HNRPLL=< -0.3117}->p (p=105, others=19)
+        [Qualidade=0,0174|Size=3] ||Similarity:0,2323||
+   cache(1):{KIT=< -0.908150,MEP1B=< 0.16365,STARD7=< 2.07885,HNRPLL=< -0.3117}->p (p=105, others=19)
+        [Qualidade=0,0174|Size=4] ||Similarity:0,2323||
+   cache(2): ||Similarity:0,063||
+   cache(3): ||Similarity:0,063||
+   cache(4): ||Similarity:0,063||
+
+{GSPT1=≥ -1.5056,ZNF679=< 2.17725,HIST2H4B=< -1.252450}->p (p=107, others=22)
+        [Qualidade=0,0169|Size=3]
+   cache(0):{GSPT1=≥ -1.5056,RGS10=< 1.8562,ZNF679=< 2.17725,HIST2H4B=< -1.252450}->p (p=107, others=22)
+        [Qualidade=0,0169|Size=4] ||Similarity:1||
+   cache(1):{PLEKHH3=≥ -1.784450,SPINK1=< 5.1131,ADAMTS8=< 1.99665,HIST2H4B=< -1.252450}->p (p=111, others=26)
+        [Qualidade=0,0166|Size=4] ||Similarity:0,8472||
+   cache(2):{GSPT1=≥ -1.5056,HIST2H4B=< -1.252450}->p (p=108, others=24)
+        [Qualidade=0,0166|Size=2] ||Similarity:0,9773||
+   cache(3):{GSPT1=≥ -1.5056,KIR2DL5A=< 3.0116,SPINK1=< 5.1131,HIST2H4B=< -1.252450}->p (p=108, others=24)
+        [Qualidade=0,0166|Size=4] ||Similarity:0,9773||
+   cache(4):{KLRC3=< 1.2526,ADAMTS8=< 1.99665,SH2B3=< 1.43235,HIST2H4B=< -1.252450}->p (p=103, others=21)
+        [Qualidade=0,0164|Size=4] ||Similarity:0,7817||
+
+{DCAF12L2=< 1.8932,ABCF1=≥ -2.180350,FBLN1=< 1.27825,CORO1B=≥ -0.360250,STARD7=< 2.07885,KIAA1161=≥ 1.2925}->p (p=109, others=24)
+        [Qualidade=0,0168|Size=6]
+   cache(0):{KIAA1161=≥ 1.2925}->p (p=140, others=47)
+        [Qualidade=0,0166|Size=1] ||Similarity:0,7112||
+   cache(1):{RCBTB2=< 0.18755,SPINK1=< 5.1131,ZNF679=< 2.17725,KIAA1161=≥ 1.2925}->p (p=112, others=28)
+        [Qualidade=0,0162|Size=4] ||Similarity:0,625||
+   cache(2):{KLRC3=< 1.2526,CORO1B=≥ -0.360250,KIAA1161=≥ 1.2925}->p (p=105, others=23)
+        [Qualidade=0,0162|Size=3] ||Similarity:0,8643||
+   cache(3):{PLEKHH3=≥ -1.784450,RCBTB2=< 0.18755,ADAMTS8=< 1.99665,KIAA1161=≥ 1.2925}->p (p=110, others=27)
+        [Qualidade=0,0161|Size=4] ||Similarity:0,6168||
+   cache(4):{CORO1B=≥ -0.360250,KIAA1161=≥ 1.2925}->p (p=112, others=29)
+        [Qualidade=0,0159|Size=2] ||Similarity:0,9433||
+
+{PPP4R4=< -0.546450,CHPT1=< 0.4362,ADAMTS1=< -0.6074}->p (p=110, others=25)
+        [Qualidade=0,0167|Size=3]
+{TNFRSF13B=< -0.575950,KIAA0284=< 0.53255,C4orf52=< -0.2383}->p (p=119, others=32)
+        [Qualidade=0,0166|Size=3]
+{P2RX2=≥ 1.2127,NLRP3=< 1.07285}->p (p=123, others=36)
+        [Qualidade=0,0162|Size=2]
+   cache(0):{P2RX2=≥ 1.2127,FERMT1=< 0.02035}->p (p=99, others=20)
+        [Qualidade=0,0158|Size=2] ||Similarity:0,6747||
+   cache(1):{P2RX2=≥ 1.2127,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,NAG8=≥ -0.3911}->p (p=100, others=21)
+        [Qualidade=0,0157|Size=4] ||Similarity:0,7178||
+   cache(2): ||Similarity:0,0835||
+   cache(3): ||Similarity:0,0835||
+   cache(4): ||Similarity:0,0835||
