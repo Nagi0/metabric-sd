@@ -1,126 +1,130 @@
-### Data set:brca_metabric_clinical(|I|=8069; |A|=3147; |D|=1904; |D+|=1103; |D-|=801)
-SSDP+ running...
-
 ### Top-k subgroups:
 {} -> 0.0(1103p,801n)(conf=0.5793067226890757)
-{DCAF12L2 = < 1.8932,GSPT1 = ≥ -1.5056,KLRC3 = < 1.2526,PLEKHH3 = ≥ -1.784450,NMNAT1 = < 1.4283,RGS10 = < 1.8562,KIR2DL5A = < 3.0116,MYL7 = < 0.79325,SPINK1 = < 5.1131,ADAMTS8 = < 
-1.99665,SNX10 = < 2.45705,ABCF1 = ≥ -2.180350,ZNF679 = < 2.17725,FBLN1 = < 1.27825,KCNN3 = ≥ -1.6905,STARD7 = < 2.07885,SLC2A8 = ≥ -2.3017,KBTBD3 = < 1.63885,PCDH18 = < 1.03665,SH2B3 = < 1.43235,GPR4 = ≥ -1.6321,C4orf36 = < 2.5928} -> 0.10081661341006987(689p,169n)(conf=0.803030303030303)
+{AURKB = ≥ -1.285950,IGFBP6 = < 1.0821,PLXNA3 = ≥ -0.6741,ADAMTS8 = < 1.99665,ABCF1 = ≥ -2.180350,GPR4 = ≥ -1.6321,RPL36A = < 2.0483,DTWD1 = < 1.1519,MYL7 = < 0.79325,KLRC3 = < 1.2526,FBLN1 = < 1.27825,C21orf9 = < 2.91185,RABGAP1L = < 2.5341} -> 0.0859877039050914(699p,225n)(conf=0.7564935064935064)
 {Nottingham Prognostic Index = ≥ 5.1} -> 0.023066211778829167(176p,52n)(conf=0.7719298245614035)
-{Age at Diagnosis [years] = ≥ 80,KBTBD3 = < 1.63885} -> 0.021566439075630252(110p,9n)(conf=0.9243697478991597)
-{MYL7 = < 0.79325,CORO1B = ≥ -0.360250,MRE11A = < -1.2973} -> 0.018498483952404485(103p,14n)(conf=0.8803418803418803)
-{KIT = < -0.908150,OVOL1 = ≥ 0.75365,STARD7 = < 2.07885,C4orf36 = < 2.5928} -> 0.018110920838923805(104p,16n)(conf=0.8666666666666667)
-{GSPT1 = ≥ -1.5056,ZNF679 = < 2.17725,HIST2H4B = < -1.252450} -> 0.016948231498481743(107p,22n)(conf=0.8294573643410853)
-{DCAF12L2 = < 1.8932,ABCF1 = ≥ -2.180350,FBLN1 = < 1.27825,CORO1B = ≥ -0.360250,STARD7 = < 2.07885,KIAA1161 = ≥ 1.2925} -> 0.016781620736529904(109p,24n)(conf=0.8195488721804511){PPP4R4 = < -0.546450,CHPT1 = < 0.4362,ADAMTS1 = < -0.6074} -> 0.01669831535555398(110p,25n)(conf=0.8148148148148148)
-{TNFRSF13B = < -0.575950,KIAA0284 = < 0.53255,C4orf52 = < -0.2383} -> 0.016557082391780237(119p,32n)(conf=0.7880794701986755)
-{P2RX2 = ≥ 1.2127,NLRP3 = < 1.07285} -> 0.016223860867876562(123p,36n)(conf=0.7735849056603774)
-### Data set:brca_metabric_clinical(|I|=8069; |A|=3147; |D+|=1103; |D-|=801)
-Average WRAcc: 0.026526777990607996
-Time(s): 407.152
-Average size: 4.9
-Coverage of all Pk DPs in relation to D+: 82.13961922030825%
-Description Redundancy Item Dominador (|itemDominador|/k): 0.3
-Number of individuals generated: 1309791
+{Age at Diagnosis [years] = ≥ 80} -> 0.021483133694654332(111p,10n)(conf=0.9173553719008265)
+{EGR3 = < -0.240450,MAT2A = ≥ 0.5491,ABCF1 = ≥ -2.180350,WWOX = ≥ 0.32525} -> 0.019052657827837015(100p,10n)(conf=0.9090909090909091)
+{REPS2 = ≥ -0.025150,ABCF1 = ≥ -2.180350,KLK1 = < -0.926750} -> 0.018020443471506244(127p,33n)(conf=0.79375)
+{EGR3 = < -0.240450,PDGFC = < -0.197950,WWOX = ≥ 0.32525} -> 0.01758212476166937(114p,25n)(conf=0.8201438848920863)
+{RPS3A = < 0.23965,ABCF1 = ≥ -2.180350,ZNF729 = ≥ 1.295} -> 0.01753136916531318(100p,15n)(conf=0.8695652173913043)
+{DNAJB6 = < -1.1779,NR3C1 = ≥ -0.874550} -> 0.017277867029164604(114p,26n)(conf=0.8142857142857143)
+{KIAA1161 = ≥ 1.2925} -> 0.01663321578631452(140p,47n)(conf=0.7486631016042781)
+{BCL11A = < -0.0912,SLC46A1 = ≥ 1.2604} -> 0.015865261545794783(120p,35n)(conf=0.7741935483870968)
+### Data set:brca_metabric_clinical_plus_genes(|I|=7868; |A|=1274; |D+|=1103; |D-|=801)
+Average WRAcc: 0.025249998896617463
+Time(s): 113.485
+Average size: 3.3
+Coverage of all Pk DPs in relation to D+: 82.32094288304623%
+Description Redundancy Item Dominador (|itemDominador|/k): 0.4
+Number of individuals generated: 785880
 
 ### Top-k and caches
 {} -> 0.0(1103p,801n)(conf=0.5793067226890757)
-{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,RGS10=< 1.8562,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=689, others=169)
-        [Qualidade=0,1008|Size=22]
-   cache(0):{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,BMPR2=< 2.10135,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=694, others=173)
-        [Qualidade=0,1007|Size=22] ||Similarity:0,985||
-   cache(1):{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=695, others=174)
-        [Qualidade=0,1006|Size=21] ||Similarity:0,9873||
-   cache(2):{DCAF12L2=< 1.8932,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,BMPR2=< 2.10135,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=720, others=193)
-        [Qualidade=0,1004|Size=20] ||Similarity:0,9355||
-   cache(3):{DCAF12L2=< 1.8932,GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=706, others=183)
-        [Qualidade=0,1003|Size=20] ||Similarity:0,9651||
-   cache(4):{GSPT1=≥ -1.5056,KLRC3=< 1.2526,PLEKHH3=≥ -1.784450,NMNAT1=< 1.4283,KIR2DL5A=< 3.0116,MYL7=< 0.79325,SPINK1=< 5.1131,ADAMTS8=< 1.99665,SNX10=< 2.45705,ABCF1=≥ -2.180350,ZNF679=< 2.17725,FBLN1=< 1.27825,KCNN3=≥ -1.6905,STARD7=< 2.07885,SLC2A8=≥ -2.3017,KBTBD3=< 1.63885,PCDH18=< 1.03665,SH2B3=< 1.43235,GPR4=≥ -1.6321,C4orf36=< 2.5928}->p (p=707, others=184)
-        [Qualidade=0,1002|Size=20] ||Similarity:0,963||
+{AURKB=≥ -1.285950,IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,C21orf9=< 2.91185,RABGAP1L=< 2.5341}->p (p=699, others=225)
+        [Qualidade=0,086|Size=13]
+   cache(0):{AURKB=≥ -1.285950,ASF1B=≥ -1.3589,IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,C21orf9=< 2.91185,RABGAP1L=< 2.5341}->p (p=693, others=221)
+        [Qualidade=0,0859|Size=14] ||Similarity:0,9892||
+   cache(1):{AURKB=≥ -1.285950,IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,RABGAP1L=< 2.5341}->p (p=704, others=230)
+        [Qualidade=0,0856|Size=12] ||Similarity:0,9893||
+   cache(2):{IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,C21orf9=< 2.91185,RABGAP1L=< 2.5341}->p (p=713, others=237)
+        [Qualidade=0,0854|Size=12] ||Similarity:0,9726||
+   cache(3):{AURKB=≥ -1.285950,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,C21orf9=< 2.91185,RABGAP1L=< 2.5341}->p (p=721, others=243)
+        [Qualidade=0,0854|Size=12] ||Similarity:0,9585||
+   cache(4):{ASF1B=≥ -1.3589,IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,RABGAP1L=< 2.5341}->p (p=707, others=233)
+        [Qualidade=0,0853|Size=12] ||Similarity:0,9621||
 
 {Nottingham Prognostic Index=≥ 5.1}->p (p=176, others=52)
         [Qualidade=0,0231|Size=1]
-   cache(0):{Nottingham Prognostic Index=≥ 5.1,PLEKHH3=≥ -1.784450,CORO1B=≥ -0.360250}->p (p=124, others=25)
-        [Qualidade=0,0198|Size=3] ||Similarity:0,6535||
-   cache(1):{Nottingham Prognostic Index=≥ 5.1,CORO1B=≥ -0.360250,C4orf36=< 2.5928}->p (p=127, others=29)
-        [Qualidade=0,0192|Size=3] ||Similarity:0,6842||
-   cache(2):{Nottingham Prognostic Index=≥ 5.1,SPINK1=< 5.1131,CORO1B=≥ -0.360250,STARD7=< 2.07885}->p (p=128, others=30)
-        [Qualidade=0,0192|Size=4] ||Similarity:0,693||
-   cache(3):{Nottingham Prognostic Index=≥ 5.1,GSPT1=≥ -1.5056,ADAMTS8=< 1.99665,CORO1B=≥ -0.360250}->p (p=123, others=27)
-        [Qualidade=0,019|Size=4] ||Similarity:0,6579||
-   cache(4):{Nottingham Prognostic Index=≥ 5.1,CORO1B=≥ -0.360250,KBTBD3=< 1.63885}->p (p=125, others=29)
-        [Qualidade=0,0188|Size=3] ||Similarity:0,6754||
+   cache(0):{Nottingham Prognostic Index=≥ 5.1,DCN=< 0.62685}->p (p=136, others=29)
+        [Qualidade=0,0212|Size=2] ||Similarity:0,7237||
+   cache(1):{Nottingham Prognostic Index=≥ 5.1,COL6A6=< -0.020450}->p (p=123, others=24)
+        [Qualidade=0,0199|Size=2] ||Similarity:0,6447||
+   cache(2):{Nottingham Prognostic Index=≥ 5.1,MYL7=< 0.79325,PLVAP=≥ -0.339550}->p (p=113, others=21)
+        [Qualidade=0,0186|Size=3] ||Similarity:0,5877||
+   cache(3):{Nottingham Prognostic Index=≥ 5.1,RDH16=≥ -0.350250}->p (p=113, others=22)
+        [Qualidade=0,0183|Size=2] ||Similarity:0,5921||
+   cache(4):{Nottingham Prognostic Index=≥ 5.1,EDN3=< 0.16815,PAK4=≥ -0.452050,FBLN1=< 1.27825}->p (p=110, others=20)
+        [Qualidade=0,0182|Size=4] ||Similarity:0,5702||
 
-{Age at Diagnosis [years]=≥ 80,KBTBD3=< 1.63885}->p (p=110, others=9)
-        [Qualidade=0,0216|Size=2]
-   cache(0):{Age at Diagnosis [years]=≥ 80,STARD7=< 2.07885,KBTBD3=< 1.63885}->p (p=110, others=9)
-        [Qualidade=0,0216|Size=3] ||Similarity:1||
-   cache(1):{Age at Diagnosis [years]=≥ 80}->p (p=111, others=10)
-        [Qualidade=0,0215|Size=1] ||Similarity:0,9835||
-   cache(2):{Age at Diagnosis [years]=≥ 80,KIR2DL5A=< 3.0116,ABCF1=≥ -2.180350}->p (p=111, others=10)
-        [Qualidade=0,0215|Size=3] ||Similarity:0,9835||
-   cache(3):{Age at Diagnosis [years]=≥ 80,KIR2DL5A=< 3.0116,STARD7=< 2.07885}->p (p=111, others=10)
-        [Qualidade=0,0215|Size=3] ||Similarity:0,9835||
-   cache(4):{Age at Diagnosis [years]=≥ 80,STARD7=< 2.07885}->p (p=111, others=10)
-        [Qualidade=0,0215|Size=2] ||Similarity:0,9835||
+{Age at Diagnosis [years]=≥ 80}->p (p=111, others=10)
+        [Qualidade=0,0215|Size=1]
+   cache(0):{Age at Diagnosis [years]=≥ 80,ABCF1=≥ -2.180350}->p (p=111, others=10)
+        [Qualidade=0,0215|Size=2] ||Similarity:1||
+   cache(1):{Age at Diagnosis [years]=≥ 80,ABCF1=≥ -2.180350,RABGAP1L=< 2.5341}->p (p=110, others=10)
+        [Qualidade=0,0213|Size=3] ||Similarity:0,9917||
+   cache(2):{Age at Diagnosis [years]=≥ 80,RPL36A=< 2.0483,RABGAP1L=< 2.5341}->p (p=110, others=10)
+        [Qualidade=0,0213|Size=3] ||Similarity:0,9917||
+   cache(3):{Age at Diagnosis [years]=≥ 80,ADAMTS8=< 1.99665}->p (p=110, others=10)
+        [Qualidade=0,0213|Size=2] ||Similarity:0,9917||
+   cache(4):{Age at Diagnosis [years]=≥ 80,C21orf9=< 2.91185}->p (p=110, others=10)
+        [Qualidade=0,0213|Size=2] ||Similarity:0,9917||
 
-{MYL7=< 0.79325,CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=103, others=14)
-        [Qualidade=0,0185|Size=3]
-   cache(0):{PLEKHH3=≥ -1.784450,CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=107, others=17)
-        [Qualidade=0,0185|Size=3] ||Similarity:0,8976||
-   cache(1):{RGS10=< 1.8562,TNFAIP6=< 1.29205,CORO1B=≥ -0.360250,STARD7=< 2.07885,C4orf36=< 2.5928,MRE11A=< -1.2973}->p (p=104, others=15)
-        [Qualidade=0,0184|Size=6] ||Similarity:0,873||
-   cache(2):{RGS10=< 1.8562,CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=108, others=18)
-        [Qualidade=0,0184|Size=3] ||Similarity:0,9134||
-   cache(3):{MYL7=< 0.79325,EIF3B=≥ -0.932250,RRAGA=< 0.1291,MRE11A=< -1.2973}->p (p=105, others=16)
-        [Qualidade=0,0183|Size=4] ||Similarity:0,6528||
-   cache(4):{CORO1B=≥ -0.360250,MRE11A=< -1.2973}->p (p=108, others=19)
-        [Qualidade=0,0181|Size=2] ||Similarity:0,9213||
+{EGR3=< -0.240450,MAT2A=≥ 0.5491,ABCF1=≥ -2.180350,WWOX=≥ 0.32525}->p (p=100, others=10)
+        [Qualidade=0,0191|Size=4]
+   cache(0):{RPS3A=< 0.23965,ADAMTS8=< 1.99665,MYL7=< 0.79325,ZNF729=≥ 1.295}->p (p=97, others=10)
+        [Qualidade=0,0184|Size=4] ||Similarity:0,1015||
+   cache(1):{EGR3=< -0.240450,ABCF1=≥ -2.180350,RWDD1=< 0.1226,BLCAP=≥ 0.9819}->p (p=108, others=18)
+        [Qualidade=0,0184|Size=4] ||Similarity:0,1683||
+   cache(2):{RPS3A=< 0.23965,ZNF729=≥ 1.295,CH25H=< 0.88305}->p (p=93, others=10)
+        [Qualidade=0,0175|Size=3] ||Similarity:0,1036||
+   cache(3):{CDKN1C=< 0.7774,WWOX=≥ 0.32525,CCDC90B=< -0.4505,KLRC3=< 1.2526,CLDND1=< -0.008550}->p (p=104, others=18)
+        [Qualidade=0,0175|Size=5] ||Similarity:0,2678||
+   cache(4):{WWOX=≥ 0.32525,AKR1C4=< -0.723250}->p (p=115, others=27)
+        [Qualidade=0,0172|Size=2] ||Similarity:0,2414||
 
-{KIT=< -0.908150,OVOL1=≥ 0.75365,STARD7=< 2.07885,C4orf36=< 2.5928}->p (p=104, others=16)
-        [Qualidade=0,0181|Size=4]
-   cache(0):{KIT=< -0.908150,MEP1B=< 0.16365,HNRPLL=< -0.3117}->p (p=105, others=19)
-        [Qualidade=0,0174|Size=3] ||Similarity:0,2323||
-   cache(1):{KIT=< -0.908150,MEP1B=< 0.16365,STARD7=< 2.07885,HNRPLL=< -0.3117}->p (p=105, others=19)
-        [Qualidade=0,0174|Size=4] ||Similarity:0,2323||
-   cache(2): ||Similarity:0,063||
-   cache(3): ||Similarity:0,063||
-   cache(4): ||Similarity:0,063||
+{REPS2=≥ -0.025150,ABCF1=≥ -2.180350,KLK1=< -0.926750}->p (p=127, others=33)
+        [Qualidade=0,018|Size=3]
+   cache(0):{POU2AF1=< -0.4666,NDRG3=≥ -0.115850,RWDD1=< 0.1226,LDHB=< -0.569150,RAB5B=≥ 0.1616}->p (p=105, others=21)
+        [Qualidade=0,0168|Size=5] ||Similarity:0,1128||
+   cache(1): ||Similarity:0,084||
+   cache(2): ||Similarity:0,084||
+   cache(3): ||Similarity:0,084||
+   cache(4): ||Similarity:0,084||
 
-{GSPT1=≥ -1.5056,ZNF679=< 2.17725,HIST2H4B=< -1.252450}->p (p=107, others=22)
-        [Qualidade=0,0169|Size=3]
-   cache(0):{GSPT1=≥ -1.5056,RGS10=< 1.8562,ZNF679=< 2.17725,HIST2H4B=< -1.252450}->p (p=107, others=22)
-        [Qualidade=0,0169|Size=4] ||Similarity:1||
-   cache(1):{PLEKHH3=≥ -1.784450,SPINK1=< 5.1131,ADAMTS8=< 1.99665,HIST2H4B=< -1.252450}->p (p=111, others=26)
-        [Qualidade=0,0166|Size=4] ||Similarity:0,8472||
-   cache(2):{GSPT1=≥ -1.5056,HIST2H4B=< -1.252450}->p (p=108, others=24)
-        [Qualidade=0,0166|Size=2] ||Similarity:0,9773||
-   cache(3):{GSPT1=≥ -1.5056,KIR2DL5A=< 3.0116,SPINK1=< 5.1131,HIST2H4B=< -1.252450}->p (p=108, others=24)
-        [Qualidade=0,0166|Size=4] ||Similarity:0,9773||
-   cache(4):{KLRC3=< 1.2526,ADAMTS8=< 1.99665,SH2B3=< 1.43235,HIST2H4B=< -1.252450}->p (p=103, others=21)
-        [Qualidade=0,0164|Size=4] ||Similarity:0,7817||
+{EGR3=< -0.240450,PDGFC=< -0.197950,WWOX=≥ 0.32525}->p (p=114, others=25)
+        [Qualidade=0,0176|Size=3]
+   cache(0):{CHAF1A=≥ -0.6045,CCDC90B=< -0.4505,BLCAP=≥ 0.9819}->p (p=113, others=26)
+        [Qualidade=0,0171|Size=3] ||Similarity:0,144||
+   cache(1):{FLT3=< -0.467950,UBE2C=≥ -0.349350,POLD1=≥ -0.621550,SNX30=< -0.859350}->p (p=105, others=21)
+        [Qualidade=0,0168|Size=4] ||Similarity:0,1229||
+   cache(2):{RBM39=≥ 0.94165,TMED3=≥ 0.39785}->p (p=109, others=25)
+        [Qualidade=0,0165|Size=2] ||Similarity:0,1471||
+   cache(3):{DDX41=≥ 0.052,POU2AF1=< -0.4666,WWOX=≥ 0.32525}->p (p=112, others=28)
+        [Qualidade=0,0162|Size=3] ||Similarity:0,213||
+   cache(4):{TMED3=≥ 0.39785,DRAP1=≥ 0.72005}->p (p=109, others=26)
+        [Qualidade=0,0162|Size=2] ||Similarity:0,1093||
 
-{DCAF12L2=< 1.8932,ABCF1=≥ -2.180350,FBLN1=< 1.27825,CORO1B=≥ -0.360250,STARD7=< 2.07885,KIAA1161=≥ 1.2925}->p (p=109, others=24)
-        [Qualidade=0,0168|Size=6]
-   cache(0):{KIAA1161=≥ 1.2925}->p (p=140, others=47)
-        [Qualidade=0,0166|Size=1] ||Similarity:0,7112||
-   cache(1):{RCBTB2=< 0.18755,SPINK1=< 5.1131,ZNF679=< 2.17725,KIAA1161=≥ 1.2925}->p (p=112, others=28)
-        [Qualidade=0,0162|Size=4] ||Similarity:0,625||
-   cache(2):{KLRC3=< 1.2526,CORO1B=≥ -0.360250,KIAA1161=≥ 1.2925}->p (p=105, others=23)
-        [Qualidade=0,0162|Size=3] ||Similarity:0,8643||
-   cache(3):{PLEKHH3=≥ -1.784450,RCBTB2=< 0.18755,ADAMTS8=< 1.99665,KIAA1161=≥ 1.2925}->p (p=110, others=27)
-        [Qualidade=0,0161|Size=4] ||Similarity:0,6168||
-   cache(4):{CORO1B=≥ -0.360250,KIAA1161=≥ 1.2925}->p (p=112, others=29)
-        [Qualidade=0,0159|Size=2] ||Similarity:0,9433||
+{RPS3A=< 0.23965,ABCF1=≥ -2.180350,ZNF729=≥ 1.295}->p (p=100, others=15)
+        [Qualidade=0,0175|Size=3]
+   cache(0):{ABCF1=≥ -2.180350,RGMA=< 0.56435,ZNF729=≥ 1.295,C21orf9=< 2.91185}->p (p=111, others=24)
+        [Qualidade=0,0172|Size=4] ||Similarity:0,6234||
+   cache(1):{EDN3=< 0.16815,MYL7=< 0.79325,ZNF729=≥ 1.295}->p (p=110, others=24)
+        [Qualidade=0,017|Size=3] ||Similarity:0,586||
+   cache(2):{ABCF1=≥ -2.180350,RGMA=< 0.56435,GPR4=≥ -1.6321,KLRC3=< 1.2526,ZNF729=≥ 1.295}->p (p=105, others=21)
+        [Qualidade=0,0168|Size=5] ||Similarity:0,596||
+   cache(3):{RGMA=< 0.56435,ZNF729=≥ 1.295,C21orf9=< 2.91185}->p (p=111, others=26)
+        [Qualidade=0,0166|Size=3] ||Similarity:0,6154||
+   cache(4):{AURKB=≥ -1.285950,EDN3=< 0.16815,GPR4=≥ -1.6321,ZNF729=≥ 1.295}->p (p=104, others=21)
+        [Qualidade=0,0166|Size=4] ||Similarity:0,6327||
 
-{PPP4R4=< -0.546450,CHPT1=< 0.4362,ADAMTS1=< -0.6074}->p (p=110, others=25)
-        [Qualidade=0,0167|Size=3]
-{TNFRSF13B=< -0.575950,KIAA0284=< 0.53255,C4orf52=< -0.2383}->p (p=119, others=32)
-        [Qualidade=0,0166|Size=3]
-{P2RX2=≥ 1.2127,NLRP3=< 1.07285}->p (p=123, others=36)
-        [Qualidade=0,0162|Size=2]
-   cache(0):{P2RX2=≥ 1.2127,FERMT1=< 0.02035}->p (p=99, others=20)
-        [Qualidade=0,0158|Size=2] ||Similarity:0,6747||
-   cache(1):{P2RX2=≥ 1.2127,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,NAG8=≥ -0.3911}->p (p=100, others=21)
-        [Qualidade=0,0157|Size=4] ||Similarity:0,7178||
-   cache(2): ||Similarity:0,0835||
-   cache(3): ||Similarity:0,0835||
-   cache(4): ||Similarity:0,0835||
+{DNAJB6=< -1.1779,NR3C1=≥ -0.874550}->p (p=114, others=26)
+        [Qualidade=0,0173|Size=2]
+   cache(0):{AURKB=≥ -1.285950,POU2AF1=< -0.4666,BLCAP=≥ 0.9819}->p (p=106, others=21)
+        [Qualidade=0,017|Size=3] ||Similarity:0,1314||
+   cache(1): ||Similarity:0,0735||
+   cache(2): ||Similarity:0,0735||
+   cache(3): ||Similarity:0,0735||
+   cache(4): ||Similarity:0,0735||
+
+{KIAA1161=≥ 1.2925}->p (p=140, others=47)
+        [Qualidade=0,0166|Size=1]
+   cache(0):{RPS17=< 0.28345,PKM2=≥ -0.8695,KIAA1161=≥ 1.2925}->p (p=100, others=20)
+        [Qualidade=0,016|Size=3] ||Similarity:0,6417||
+   cache(1):{KIAA1161=≥ 1.2925,ZWINT=≥ -1.6092}->p (p=137, others=47)
+        [Qualidade=0,016|Size=2] ||Similarity:0,984||
+   cache(2): ||Similarity:0,0982||
+   cache(3): ||Similarity:0,0982||
+   cache(4): ||Similarity:0,0982||
+
+{BCL11A=< -0.0912,SLC46A1=≥ 1.2604}->p (p=120, others=35)
+        [Qualidade=0,0159|Size=2]
