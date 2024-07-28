@@ -13,7 +13,8 @@ filter_genes.py and geneset_survival.ows: Now the user can take a look at the ge
 
 ![alt text](image.png)
 
-The 'Single sample scoring' widget will estimate continuos values that represents the expression of the gene sets in each sample, doing this, new columns containing these values for each gene set will be added to the dataframe.
+    The 'Single sample scoring' widget will estimate continuos values that represents the expression of the gene sets in each sample, doing this, new columns containing these values for each gene set will be added to the dataframe.
+
 5) Now open the `Select Columns (1)` widget and move the gene set expression from 'Metas' to 'Feature' and the gene columns to 'Ignoreed'
 
 ![alt text](image-1.png)
