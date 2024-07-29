@@ -50,14 +50,18 @@ class SubgroupDatabase:
 
 
 if __name__ == "__main__":
-    txt_file_path = "ssdp_results/analysis/clinical_plus_genes.txt"
+    txt_file_path = "ssdp_results/analysis/genes_only.txt"
     subgroup_representation = SubgroupDatabase(
-        "metabrick_sd/load_database/brca_metabric_clinical.csv", separator=","
+        "metabrick_sd/load_database/brca_metabric_clinical_plus_genes.csv",
+        separator=",",
     )
     df = subgroup_representation.load_database()
 
     subgroups = subgroup_representation.extract_subgroups_from_text(txt_file_path, df)
 
     result_df = subgroup_representation.build_subgroup_representation(subgroups)
-    result_df.to_csv("subgroup_representation.csv", index=False)
+    result_df.to_csv(
+        "metabrick_sd/results_analysis/coax_regression_analysis/subgroup_representation.csv",
+        index=False,
+    )
     print(result_df)
