@@ -28,7 +28,12 @@ class SubgroupDatabase:
             col, value = cond.split("=")
             col = col.strip()
             value = value.strip()
-            query_conditions.append(f"`{col}` == '{value}'")
+
+            if "|" in value:
+                values = value.split("|")
+                query_conditions.append(f"`{col}` in {values}")
+            else:
+                query_conditions.append(f"`{col}` == '{value}'")
 
         query_str = " & ".join(query_conditions)
         return df.query(query_str)
@@ -50,7 +55,7 @@ class SubgroupDatabase:
 
 
 if __name__ == "__main__":
-    txt_file_path = "ssdp_results/analysis/genes_only.txt"
+    txt_file_path = "cn2-sd_results/analysis/cn2-sd_top_p_and_top_n.txt"
     subgroup_representation = SubgroupDatabase(
         "metabrick_sd/load_database/brca_metabric_clinical_plus_genes.csv",
         separator=",",
