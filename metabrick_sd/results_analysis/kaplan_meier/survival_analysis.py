@@ -54,7 +54,7 @@ def plot_kaplan_meier_survival(subgroups_df: pd.DataFrame):
         kmf.plot_survival_function(ax=ax)
 
     # Customize the plot
-    plt.title("Kaplan-Meier Survival Curves [CN2-SD]")
+    plt.title("Kaplan-Meier Survival Curves")
     plt.xlabel("Time")
     plt.ylabel("Survival Probability")
     plt.legend()

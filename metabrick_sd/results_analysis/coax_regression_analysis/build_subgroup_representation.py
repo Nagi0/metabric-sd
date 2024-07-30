@@ -25,15 +25,12 @@ class SubgroupDatabase:
         query_conditions = []
 
         for cond in conditions:
-            col, value = cond.split("=")
+            col, value = cond.split("!=" if "!=" in cond else "=")
             col = col.strip()
             value = value.strip()
+            operator = "!=" if "!=" in cond else "=="
 
-            if "|" in value:
-                values = value.split("|")
-                query_conditions.append(f"`{col}` in {values}")
-            else:
-                query_conditions.append(f"`{col}` == '{value}'")
+            query_conditions.append(f"`{col}` {operator} '{value}'")
 
         query_str = " & ".join(query_conditions)
         return df.query(query_str)
