@@ -1,0 +1,135 @@
+### Top-k subgroups:
+{} -> 0.0(1103p,801n)(conf=0.5793067226890757)
+{IGFBP6 = < 1.0821,CENPF = ≥ -1.5178,PLXNA3 = ≥ -0.6741,ADAMTS8 = < 1.99665,ABCF1 = ≥ -2.180350,GPR4 = ≥ -1.6321,RPL36A = < 2.0483,DTWD1 = < 1.1519,MYL7 = < 0.79325,KLRC3 = < 1.2526,FBLN1 = < 1.27825,C21orf9 = < 2.91185,RABGAP1L = < 2.5341} -> 0.08579212935174067(705p,230n)(conf=0.7540106951871658)
+{SGCA = ≥ 0.5889,C2 = ≥ -0.557050,CLEC4C = < 0.01375} -> 0.020009014635265866(136p,33n)(conf=0.8047337278106509)
+{PRKCD = ≥ 0.5312,DTWD1 = < 1.1519,SGCA = ≥ 0.5889} -> 0.017611088553068286(110p,22n)(conf=0.8333333333333334)
+{ABI3BP = < -0.5280,GRHL2 = ≥ 0.12535,TRIM52 = ≥ 0.50335} -> 0.01753136916531318(100p,15n)(conf=0.8695652173913043)
+{KIAA1161 = ≥ 1.2925} -> 0.01663321578631452(140p,47n)(conf=0.7486631016042781)
+{KRT16 = < -0.1615,SLC46A1 = ≥ 1.2604} -> 0.016473777010804318(120p,33n)(conf=0.7843137254901961)
+{GADD45A = < -0.066050,KLK1 = < -0.926750,NPLOC4 = ≥ -0.627650} -> 0.01611876368194336(106p,24n)(conf=0.8153846153846154)
+{CUL5 = < -0.2844,RNF41 = ≥ 0.9176} -> 0.015097307305275049(100p,23n)(conf=0.8130081300813008)
+{GRHL2 = ≥ 0.12535,ERICH1 = < -1.2768} -> 0.014713330185015179(90p,17n)(conf=0.8411214953271028)
+{PCGF5 = < -1.306850,FIS1 = < 0.71255} -> 0.014459828048866601(104p,28n)(conf=0.7878787878787878)
+### Data set:brca_metabric_genes_only(|I|=6105; |A|=1250; |D+|=1103; |D-|=801)
+Average WRAcc: 0.023443982372360707
+Time(s): 83.902
+Average size: 3.4
+Coverage of all Pk DPs in relation to D+: 79.9637352674524%
+Description Redundancy Item Dominador (|itemDominador|/k): 0.2
+Number of individuals generated: 531116
+
+### Top-k and caches
+{} -> 0.0(1103p,801n)(conf=0.5793067226890757)
+{IGFBP6=< 1.0821,CENPF=≥ -1.5178,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,C21orf9=< 2.91185,RABGAP1L=< 2.5341}->p (p=705, others=230)
+        [Qualidade=0,0858|Size=13]
+   cache(0):{IGFBP6=< 1.0821,CENPF=≥ -1.5178,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,RABGAP1L=< 2.5341}->p (p=711, others=235)
+        [Qualidade=0,0856|Size=12] ||Similarity:0,9884||
+   cache(1):{IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,ZWINT=≥ -1.6092,FBLN1=< 1.27825,C21orf9=< 2.91185,RABGAP1L=< 2.5341}->p (p=705, others=231)
+        [Qualidade=0,0855|Size=13] ||Similarity:0,9757||
+   cache(2):{IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,C21orf9=< 2.91185,RABGAP1L=< 2.5341}->p (p=713, others=237)
+        [Qualidade=0,0854|Size=12] ||Similarity:0,9842||
+   cache(3):{IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,ZWINT=≥ -1.6092,FBLN1=< 1.27825,RABGAP1L=< 2.5341}->p (p=711, others=236)
+        [Qualidade=0,0853|Size=12] ||Similarity:0,9645||
+   cache(4):{IGFBP6=< 1.0821,PLXNA3=≥ -0.6741,ADAMTS8=< 1.99665,ABCF1=≥ -2.180350,GPR4=≥ -1.6321,RPL36A=< 2.0483,DTWD1=< 1.1519,MYL7=< 0.79325,KLRC3=< 1.2526,FBLN1=< 1.27825,RABGAP1L=< 2.5341}->p (p=719, others=242)
+        [Qualidade=0,0852|Size=11] ||Similarity:0,9729||
+
+{SGCA=≥ 0.5889,C2=≥ -0.557050,CLEC4C=< 0.01375}->p (p=136, others=33)
+        [Qualidade=0,02|Size=3]
+   cache(0):{TRIM52=≥ 0.50335,CLEC4C=< 0.01375,TRIM16=≥ 0.6714}->p (p=109, others=17)
+        [Qualidade=0,0189|Size=3] ||Similarity:0,109||
+   cache(1):{OSBP2=≥ -0.485650,JAZF1=< -0.2090,SGCA=≥ 0.5889}->p (p=118, others=26)
+        [Qualidade=0,0182|Size=3] ||Similarity:0,2323||
+   cache(2):{TRIM52=≥ 0.50335,DTWD1=< 1.1519,SGCA=≥ 0.5889}->p (p=118, others=27)
+        [Qualidade=0,0179|Size=3] ||Similarity:0,2713||
+   cache(3):{CENPF=≥ -1.5178,TRIM52=≥ 0.50335,SGCA=≥ 0.5889}->p (p=116, others=26)
+        [Qualidade=0,0177|Size=3] ||Similarity:0,2591||
+   cache(4): ||Similarity:0,0888||
+
+{PRKCD=≥ 0.5312,DTWD1=< 1.1519,SGCA=≥ 0.5889}->p (p=110, others=22)
+        [Qualidade=0,0176|Size=3]
+   cache(0):{PRKCD=≥ 0.5312,ABCF1=≥ -2.180350,SGCA=≥ 0.5889,FBLN1=< 1.27825}->p (p=109, others=22)
+        [Qualidade=0,0174|Size=4] ||Similarity:0,9627||
+   cache(1):{PRKCD=≥ 0.5312,SGCA=≥ 0.5889}->p (p=110, others=24)
+        [Qualidade=0,017|Size=2] ||Similarity:0,9851||
+   cache(2):{PRKCD=≥ 0.5312,ABCF1=≥ -2.180350,SGCA=≥ 0.5889}->p (p=110, others=24)
+        [Qualidade=0,017|Size=3] ||Similarity:0,9851||
+   cache(3):{CENPF=≥ -1.5178,PRKCD=≥ 0.5312,RNF41=≥ 0.9176}->p (p=116, others=29)
+        [Qualidade=0,0168|Size=3] ||Similarity:0,1399||
+   cache(4):{PRKCD=≥ 0.5312,RNF41=≥ 0.9176,C21orf9=< 2.91185}->p (p=116, others=29)
+        [Qualidade=0,0168|Size=3] ||Similarity:0,1399||
+
+{ABI3BP=< -0.5280,GRHL2=≥ 0.12535,TRIM52=≥ 0.50335}->p (p=100, others=15)
+        [Qualidade=0,0175|Size=3]
+   cache(0):{ABI3BP=< -0.5280,GRHL2=≥ 0.12535,TRIM52=≥ 0.50335,FBLN1=< 1.27825}->p (p=100, others=15)
+        [Qualidade=0,0175|Size=4] ||Similarity:1||
+   cache(1):{RPS11=< 0.64195,SLC46A1=≥ 1.2604}->p (p=123, others=35)
+        [Qualidade=0,0165|Size=2] ||Similarity:0,1053||
+   cache(2):{SLC46A1=≥ 1.2604,ARMCX6=< 0.4409,RABGAP1L=< 2.5341}->p (p=107, others=29)
+        [Qualidade=0,0148|Size=3] ||Similarity:0,1009||
+   cache(3): ||Similarity:0,0604||
+   cache(4): ||Similarity:0,0604||
+
+{KIAA1161=≥ 1.2925}->p (p=140, others=47)
+        [Qualidade=0,0166|Size=1]
+   cache(0):{CNIH2=≥ -0.7607,PLXNA3=≥ -0.6741,PCGF5=< -1.306850}->p (p=98, others=20)
+        [Qualidade=0,0156|Size=3] ||Similarity:0,1011||
+   cache(1):{GNG2=< 0.5267,KIAA1161=≥ 1.2925}->p (p=124, others=39)
+        [Qualidade=0,0155|Size=2] ||Similarity:0,8717||
+   cache(2):{DNAJC5=≥ -0.1982,ABCF1=≥ -2.180350,KIAA1161=≥ 1.2925}->p (p=108, others=29)
+        [Qualidade=0,015|Size=3] ||Similarity:0,7326||
+   cache(3):{DNAJC5=≥ -0.1982,GPR4=≥ -1.6321,RPL36A=< 2.0483,KIAA1161=≥ 1.2925}->p (p=107, others=29)
+        [Qualidade=0,0148|Size=4] ||Similarity:0,7273||
+   cache(4):{DNAJC5=≥ -0.1982,KIAA1161=≥ 1.2925,RABGAP1L=< 2.5341}->p (p=108, others=30)
+        [Qualidade=0,0147|Size=3] ||Similarity:0,738||
+
+{KRT16=< -0.1615,SLC46A1=≥ 1.2604}->p (p=120, others=33)
+        [Qualidade=0,0165|Size=2]
+   cache(0):{STAT5A=< 0.2086,ADAMTS8=< 1.99665,SLC46A1=≥ 1.2604}->p (p=109, others=28)
+        [Qualidade=0,0156|Size=3] ||Similarity:0,6667||
+   cache(1):{SLC46A1=≥ 1.2604,PELI1=< 0.1397}->p (p=112, others=33)
+        [Qualidade=0,0147|Size=2] ||Similarity:0,6836||
+   cache(2): ||Similarity:0,0804||
+   cache(3): ||Similarity:0,0804||
+   cache(4): ||Similarity:0,0804||
+
+{GADD45A=< -0.066050,KLK1=< -0.926750,NPLOC4=≥ -0.627650}->p (p=106, others=24)
+        [Qualidade=0,0161|Size=3]
+   cache(0):{STAT5A=< 0.2086,GRHL2=≥ 0.12535,KLK1=< -0.926750}->p (p=99, others=23)
+        [Qualidade=0,0149|Size=3] ||Similarity:0,44||
+   cache(1):{DNAJC5=≥ -0.1982,GADD45A=< -0.066050,GPR4=≥ -1.6321,KLK1=< -0.926750}->p (p=89, others=18)
+        [Qualidade=0,0142|Size=4] ||Similarity:0,6573||
+   cache(2): ||Similarity:0,0683||
+   cache(3): ||Similarity:0,0683||
+   cache(4): ||Similarity:0,0683||
+
+{CUL5=< -0.2844,RNF41=≥ 0.9176}->p (p=100, others=23)
+        [Qualidade=0,0151|Size=2]
+   cache(0):{SFMBT2=≥ 0.05895,RNF41=≥ 0.9176,GPR4=≥ -1.6321}->p (p=103, others=27)
+        [Qualidade=0,0145|Size=3] ||Similarity:0,375||
+   cache(1):{PRKCD=≥ 0.5312,GADD45A=< -0.066050,RNF41=≥ 0.9176}->p (p=85, others=15)
+        [Qualidade=0,0142|Size=3] ||Similarity:0,2743||
+   cache(2): ||Similarity:0,0646||
+   cache(3): ||Similarity:0,0646||
+   cache(4): ||Similarity:0,0646||
+
+{GRHL2=≥ 0.12535,ERICH1=< -1.2768}->p (p=90, others=17)
+        [Qualidade=0,0147|Size=2]
+   cache(0):{GRHL2=≥ 0.12535,ABCF1=≥ -2.180350,ERICH1=< -1.2768}->p (p=90, others=17)
+        [Qualidade=0,0147|Size=3] ||Similarity:1||
+   cache(1): ||Similarity:0,0562||
+   cache(2): ||Similarity:0,0562||
+   cache(3): ||Similarity:0,0562||
+   cache(4): ||Similarity:0,0562||
+
+{PCGF5=< -1.306850,FIS1=< 0.71255}->p (p=104, others=28)
+        [Qualidade=0,0145|Size=2]
+   cache(0):{C18orf34=< -0.7754,MARK2=≥ 0.95935}->p (p=91, others=19)
+        [Qualidade=0,0143|Size=2] ||Similarity:0,1308||
+   cache(1):{IFT122=≥ 0.20255,PODXL2=≥ 1.2383}->p (p=103, others=28)
+        [Qualidade=0,0142|Size=2] ||Similarity:0,1004||
+   cache(2):{WDR46=≥ 0.76825,SLC1A5=≥ 0.81085}->p (p=100, others=26)
+        [Qualidade=0,0142|Size=2] ||Similarity:0,1727||
+   cache(3):{ADAMTS8=< 1.99665,FNDC3A=< -1.328150}->p (p=113, others=36)
+        [Qualidade=0,014|Size=2] ||Similarity:0,1564||
+   cache(4):{C11orf1=< 0.90525,PCGF5=< -1.306850}->p (p=106, others=31)
+        [Qualidade=0,014|Size=2] ||Similarity:0,8299||
