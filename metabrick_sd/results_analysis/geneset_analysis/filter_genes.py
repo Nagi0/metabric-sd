@@ -17,7 +17,7 @@ def filter_genes(df: pd.DataFrame, genes_list: list):
 
 def export_genes_df(df: pd.DataFrame, file_name: str):
     df.to_csv(
-        f"metabrick_sd/results_analysis/geneset_analysis/{file_name}.csv",
+        f"results_analysis/geneset_analysis/{file_name}.csv",
         sep=",",
         index=False,
     )
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     ]
 
     metabrick_df = load_database(
-        "metabrick_sd/results_analysis/geneset_analysis/brca_metabric.csv"
+        "results_analysis/geneset_analysis/brca_metabric.csv"
     )
     metabrick_df = filter_genes(metabrick_df, genes)
     print(metabrick_df)

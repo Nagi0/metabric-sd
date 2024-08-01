@@ -1,0 +1,22 @@
+DISCOVERED SUBGROUPS
+
+R0: (KIF20A={'≥ -0.408850'}) & (RBBP8={'< -0.654350'}) [size=370/1904]
+[SM] R1: (PBX1={'≥ 0.6472'}) & (RAB8B={'< 0.21565'}) [size=334/1904; jaccard-c=0.19; jaccard-d=0.00]
+[SM] R2: (PLK1={'≥ -0.933850'}) & (OMD={'< 0.44625'}) & (CCL19={'< -0.207950'}) & (C9orf46={'< 0.99375'}) [size=467/1904; jaccard-c=0.16; jaccard-d=0.00]
+[SM] R3: (PPP4R4={'< -0.546450'}) & (TLE4={'< -0.359350'}) [size=230/1904; jaccard-c=0.13; jaccard-d=0.00]
+[SM] R4: (KLRB1={'< -0.1584'}) & (CPT1A={'≥ 0.0408'}) [size=381/1904; jaccard-c=0.16; jaccard-d=0.00]
+[SM] R6: (CPT1A={'≥ 0.0408'}) & (C9orf103={'< -0.1358'}) [size=399/1904; jaccard-c=0.24; jaccard-d=0.00]
+
+R5: (CPT1A={'≥ 0.0408'}) [size=798/1904]
+
+R7: (MUC20={'< 0.2531'}) & (SOSTDC1={'≥ -0.1294'}) [size=522/1904]
+[SM] R8: (ITM2B={'≥ 0.0704'}) & (EMP3={'≥ -0.1236'}) & (SLC2A4RG={'< 0.11555'}) & (ABCC5={'< 0.2492'}) [size=396/1904; jaccard-c=0.26; jaccard-d=0.00]
+
+R9: (KRCC1={'≥ -0.817950'}) & (ZNF787={'< 0.21745'}) & (MEOX1={'≥ -0.6775'}) & (BCAR1={'< 0.29945'}) & (KPNA1={'< 0.34415'}) & (TNFRSF13B={'≥ -0.575950'}) [size=336/1904]
+[SM] R10: (BLCAP={'< 0.9819'}) & (PBX1={'< 0.6472'}) & (KLHL9={'≥ -0.6906'}) & (RNF24={'< 1.01795'}) & (ARRDC4={'≥ -0.995950'}) & (FNDC3A={'≥ -1.328150'}) & (C19orf70={'≥ -0.9459'}) & (CNST={'< 1.00235'}) & (HOXC10={'< 0.9829'}) & (ZFHX3={'< 1.4304'}) & (FAM5C={'< 0.34545'}) & (C11orf71={'≥ -1.180150'}) & (ANAPC2={'< 0.9971'}) & (POLR3A={'< 0.71995'}) [size=442/1904; jaccard-c=0.22; jaccard-d=0.00]
+
+---------
+[SM] similar model
+[SD] similar description
+[jaccard-c] jaccard index over coverage
+[jaccard-d] jaccard index over description
