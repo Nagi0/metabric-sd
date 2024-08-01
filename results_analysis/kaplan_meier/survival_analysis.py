@@ -2,10 +2,8 @@ import pandas as pd
 from lifelines import KaplanMeierFitter
 import matplotlib.pyplot as plt
 
-
 def load_database(path: str, separator: str = ","):
     return pd.read_csv(path, sep=separator)
-
 
 def plot_kaplan_meier_survival(subgroups_df: pd.DataFrame):
     kmf = KaplanMeierFitter()
@@ -61,10 +59,9 @@ def plot_kaplan_meier_survival(subgroups_df: pd.DataFrame):
     plt.grid(True)
     plt.show()
 
-
 if __name__ == "__main__":
     metabrick_df = load_database(
-        "metabrick_sd/results_analysis/coax_regression_analysis/subgroup_representation.csv"
+        "results_analysis/coax_regression_analysis/subgroup_representation.csv"
     )
     metabrick_df["survival_event"] = metabrick_df["survival_event"].replace("p", 1)
     metabrick_df["survival_event"] = metabrick_df["survival_event"].replace("n", 0)
