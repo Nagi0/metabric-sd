@@ -52,7 +52,7 @@ class SubgroupDatabase:
 
 
 if __name__ == "__main__":
-    txt_file_path = "cn2-sd_results/analysis/cn2-sd_top_p_and_top_n.txt"
+    txt_file_path = "ssdp_results/analysis/genes_only.txt"
     subgroup_representation = SubgroupDatabase(
         "metabrick_sd/load_database/brca_metabric_clinical_plus_genes.csv",
         separator=",",

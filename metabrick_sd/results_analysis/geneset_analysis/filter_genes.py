@@ -16,7 +16,11 @@ def filter_genes(df: pd.DataFrame, genes_list: list):
 
 
 def export_genes_df(df: pd.DataFrame, file_name: str):
-    df.to_csv(f"metabrick_sd/results_analysis/{file_name}.csv", sep=",", index=False)
+    df.to_csv(
+        f"metabrick_sd/results_analysis/geneset_analysis/{file_name}.csv",
+        sep=",",
+        index=False,
+    )
 
 
 if __name__ == "__main__":
